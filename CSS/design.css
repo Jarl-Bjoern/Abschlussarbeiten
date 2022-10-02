@@ -1,0 +1,31 @@
+font {
+	color: 0082C9;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+h2 {
+	color:white;
+	text-align: center;
+}
+html {
+	background-color:0082C9;
+}
+input {
+	font-size: 22;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+th {
+	border: 1px solid transparent;
+}
+tr {
+	border: 1px solid transparent;
+}
+td {
+	border: 1px solid transparent;
+	text-align: center;
+}
