@@ -19,7 +19,7 @@ for pw in txt:
 pw.split('\n')
 
 # Definition_Email
-email = 'hausarbeit20192020@gmail.com'
+email = 'hausarbeit20192020@xxx'
 pwd = pw
 send_to_mail = 'test@yahoo.com'
 subject = 'WARNUNG!'
