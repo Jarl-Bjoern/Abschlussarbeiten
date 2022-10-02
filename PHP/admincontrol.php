@@ -58,7 +58,7 @@
 					header(“location: http://cloud.hausarbeit.hbfwi“);
 					session_destroy();
 					exit();
-				}
+				} ?>
 			</td>
 		</tr>
 </table>
