@@ -1,2 +1,2 @@
-# Skripte_Abschlussarbeit_Ausbildung
+# Allgemeine Beschreibung
 Network Attached Storage inklusive einbezogener Backup-Cloud-Lösung
