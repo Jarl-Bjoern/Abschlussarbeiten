@@ -1,0 +1,33 @@
+﻿<Window x:Class="P01_Projekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:P01_Projekt"
+        mc:Ignorable="d"
+        Title="B A N K A U T O M A T      V-0.99" Height="350" Width="525" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Willkommen bei dem Bankautomaten Ihrer Bank!" FontSize="15" FontWeight="Bold"  Grid.Row="0" TextAlignment="Center"></TextBlock>
+        <Grid Grid.Row="1">
+            <Frame x:Name="f_Inhalt" x:FieldModifier="public"></Frame>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Name="btn_Kontouebersicht" Content="Kontostand" Grid.Row="0" Margin="5 5 5 5" Click="btn_Kontostand_Click"></Button>
+            <Button Name="btn_Geld_Abheben" Content="Geld Abheben" Grid.Row="1" Margin="5 5 5 5" Click="btn_Geld_Abheben_Click"></Button>
+            <Button Name="btn_Hilfe" Content="Hilfe" Grid.Row="2" Margin="5 5 5 5" Click="btn_Hilfe_Click"></Button>
+        </Grid>
+    </Grid>
+</Window>
